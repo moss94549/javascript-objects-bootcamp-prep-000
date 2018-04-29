@@ -46,5 +46,5 @@ updateObjectWithKeyValue(recipe2, "chocolate", "1 cup");
 
 function updateObjectWithKeyValueBest(targetObject, updateObject)
 {
-    return Object.assign(targetObject, updateObject);
+    return Object.assign({}, targetObject, updateObject);
 }
