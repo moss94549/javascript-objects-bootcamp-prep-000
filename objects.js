@@ -73,6 +73,10 @@ var meals = {
   {
        obj.artist=song;
        return obj;
-  }
+  };
   
-  
+  function remove (obj, artist)
+  {
+      delete obj.artist;
+      return obj
+  };
