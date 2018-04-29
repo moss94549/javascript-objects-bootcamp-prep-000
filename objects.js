@@ -59,5 +59,5 @@ var meals = {
   // Desructive
   delete meals.dinner;
   
-  meals[lunch]="oatmeal and bananas";
+  meals.breakfast="oatmeal and bananas";
   
