@@ -29,14 +29,15 @@ function destructivelyUpdateObject(obj, key, value)
 
 // Example: returns {eggs:3, flour:"3 cups"} also recipe
 const recipe = {egges:3};
-destructivelyUpdateObject(recipe, "flour", "3 cups");
+destructivelyUpdateObject(recipe, "flour", "3 cups");  // modifies const recipe
 
 // pass by value (copy) 
 function updateObjectWithKeyValue(obj, key, value)
 {
-  // mergs everything into new Object
+  // mergs everything on right into new Object
   // in this case the empty object {}
   return Object.assign( {}, obj, { [key]:value })
 }
 
+// or
 
