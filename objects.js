@@ -42,4 +42,9 @@ function updateObjectWithKeyValue(obj, key, value)
 const recipe = {egges:3};
 updateObjectWithKeyValue(recipe, "chocolate", "1 cup");
 // returns {eggs:3, choclate:1 cup}
+// but recipe is still {eggs:3}
 
+function updateObjectWithKeyValueBest(targetObject, updateObject)
+{
+    return Object.assign(targetObject, updateObject);
+}
