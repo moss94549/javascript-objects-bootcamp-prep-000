@@ -48,3 +48,6 @@ function updateObjectWithKeyValueBest(targetObject, updateObject)
 {
     return Object.assign({}, targetObject, updateObject);
 }
+
+
+// Deleting
