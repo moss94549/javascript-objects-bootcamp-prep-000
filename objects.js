@@ -39,5 +39,7 @@ function updateObjectWithKeyValue(obj, key, value)
   return Object.assign( {}, obj, { [key]:value })
 }
 
-// or
+const recipe = {egges:3};
+updateObjectWithKeyValue(recipe, "chocolate", "1 cup");
+// returns {eggs:3, choclate:1 cup}
 
