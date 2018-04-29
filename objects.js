@@ -36,7 +36,7 @@ function updateObjectWithKeyValue(obj, key, value)
 {
   // mergs everything on right into new Object
   // in this case the empty object {}
-  return Object.assign( {}, obj, { [key]:value })
+  return Object.assign( {}, obj, { [key]:value });
 }
 
 const recipe2 = {egges:3};
@@ -57,4 +57,3 @@ var meals = {
   dinner:"steak and potatoes"};
   
   
-}
