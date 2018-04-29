@@ -50,10 +50,11 @@ function updateObjectWithKeyValueBest(targetObject, updateObject)
 }
 
 
-// Deleting
+// Deleting: returns "true if successful"
 var meals = {
   breakfast:"oatmel",
   lunch: "turkey sandwich",
   dinner:"steak and potatoes"};
   
-  
+  // Desructive
+  delete meals.dinner;
