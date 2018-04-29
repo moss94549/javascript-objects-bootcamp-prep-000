@@ -51,3 +51,10 @@ function updateObjectWithKeyValueBest(targetObject, updateObject)
 
 
 // Deleting
+var meals = {
+  breakfast:"oatmel",
+  lunch: "turkey sandwich",
+  dinner:"steak and potatoes"};
+  
+  
+}
