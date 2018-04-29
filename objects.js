@@ -60,4 +60,13 @@ var meals = {
   delete meals.dinner;
   
   meals.breakfast="oatmeal and bananas";
+  // or could use Oject.assign because if same key on right and left, right takes precedence
+  
+  // Assignment
+  playlist = {
+    artist1:song1,
+    artist2:song2,
+    artist3:song3
+  };
+  
   
