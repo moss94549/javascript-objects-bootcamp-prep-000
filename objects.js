@@ -69,4 +69,7 @@ var meals = {
     artist3:song3
   };
   
-  
+  function updatePlaylist(obj, artist, song)
+  {
+       
+  }
