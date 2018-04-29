@@ -75,8 +75,8 @@ var meals = {
        return obj;
   }
   
-  function removeFromPlaylist (obj, artist)
+  function removeFromPlaylist (playlist, artistName)
   {
-      delete obj.artist;
-      return obj;
+      delete playlist.artistName;
+      return playlist;
   }
